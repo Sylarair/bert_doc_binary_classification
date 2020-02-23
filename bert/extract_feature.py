@@ -1,8 +1,8 @@
-from bert.graph import import_tf
+from Bert.graph import import_tf
 from bert import modeling
 from bert import tokenization
-from bert.graph import optimize_graph
-from bert import args
+from Bert.graph import optimize_graph
+from Bert import args
 from queue import Queue
 from threading import Thread
 
