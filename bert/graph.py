@@ -6,8 +6,8 @@ import json
 import logging
 from termcolor import colored
 from bert import modeling
-from bert import args
-from bert.args import PoolingStrategy
+from Bert import args
+from Bert.args import PoolingStrategy
 import contextlib
 
 
